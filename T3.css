@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    width: 60%;
+    border: 2px solid black;
+    text-align: center;
+}
+.pallet{
+    height: 60vmin;
+}
+.btn{
+    border:2px solid black;
+}
