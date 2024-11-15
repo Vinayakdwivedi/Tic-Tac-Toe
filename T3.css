@@ -3,14 +3,43 @@
     padding: 0px;
 
 }
+.heading{
+    font-size: 50px;
+}
 .container{
-    width: 60%;
+    width: 100%;
+    height: 100vmin;
     border: 2px solid black;
+    /* translate: -136.5px;  */
     text-align: center;
+    background-color: #231942;
+    color: #E0B1CB;
+    /* margin: 10vw; */
 }
 .pallet{
-    height: 60vmin;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    width: 40%;
+    justify-self: center;
+    /* width: auto;
+    border: 2px solid black;
+    translate: 50vw;*/
+} 
 .btn{
-    border:2px solid black;
+    height: 80px;
+    font-size: 70px;
+    background-color: #9F86C0;
+    border: 2px transparent;
+    border-radius: 10px;
+    color: #231942;
+    padding: 32px;
+}
+#reset-btn{
+    font-size: large;
+    background-color: #9F86C0;
+    color: #231942;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
 }

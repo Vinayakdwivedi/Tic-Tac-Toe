@@ -10,7 +10,20 @@ const wining=[
 ]; 
 let turn= true;
 
-let btn = document.querySelectorAll("btn")
-btn.addEventListener("click", (event)=>{
-    
-})
+let box = document.querySelectorAll(".btn");
+let reset = document.querySelector(".reset-btn")
+box.forEach((btn) => { 
+    btn.addEventListener("click", () => {
+       if(turn){
+        btn.innerHTML = "O";
+        turn = false;
+        box.disabled = true;
+       }
+       else{
+        btn.innerHTML = "X";
+        turn = true;
+       }
+       
+     
+    }
+)})
